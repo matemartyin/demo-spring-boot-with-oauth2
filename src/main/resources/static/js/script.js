@@ -1,5 +1,5 @@
 $.get("/user", function(data) {
-    $("#user").html(data.name);
+    $("#user").html(data);
     $(".unauthenticated").hide()
     $(".authenticated").show()
 });
