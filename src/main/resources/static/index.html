@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>OAuth Demo</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <base href="/"/>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
+</head>
+<body>
+    <h1>OAuth Demo</h1>
+    <div class="unauthenticated">
+        <p><a href="/oauth2/authorization/github">Log in with GitHub</a></p>
+        <p><a href="/oauth2/authorization/google">Log in with Google</a></p>
+    </div>
+    <div class="authenticated" style="display:none">
+        <h2>User details</h2>
+        <p id="user"></p>
+        <div>
+            <button onClick="logout()" class="btn btn-primary">Logout</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
