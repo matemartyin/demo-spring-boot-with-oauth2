@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Slf4j
-public class GitHubUserService implements OAuth2UserService<OAuth2UserRequest, OAuth2User> {
+public class GithubUserService implements OAuth2UserService<OAuth2UserRequest, OAuth2User> {
     @Override
     public OAuth2User loadUser(OAuth2UserRequest userRequest) throws OAuth2AuthenticationException {
         var defaultUserService = new DefaultOAuth2UserService();
