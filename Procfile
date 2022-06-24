@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/spring-boot-with-oauth-demo-1.0.0.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/oauth2-demo-1.0.0.jar
