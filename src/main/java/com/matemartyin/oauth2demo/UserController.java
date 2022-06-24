@@ -1,4 +1,4 @@
-package com.matemartyin.springbootwithoauthdemo;
+package com.matemartyin.oauth2demo;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

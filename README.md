@@ -6,7 +6,7 @@ Current providers:
 - Github
 
 ### You can try out the app on Heroku
-https://spring-boot-with-oauth-demo.herokuapp.com
+https://demo-spring-boot-with-oauth2.herokuapp.com
 (It's running on a free Heroku dyno, the first request in the last 30 minutes can take a few seconds.)
 
 ### Run the app on your local machine

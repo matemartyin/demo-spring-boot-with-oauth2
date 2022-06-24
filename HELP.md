@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.matemartyin.spring-boot-with-oauth-demo' is invalid and this project uses 'com.matemartyin.springbootwithoauthdemo' instead.
+* The original package name 'com.matemartyin.spring-boot-with-oauth-demo' is invalid and this project uses 'com.matemartyin.oauth2demo' instead.
 
 # Getting Started
 

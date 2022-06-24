@@ -1,4 +1,4 @@
-package com.matemartyin.springbootwithoauthdemo;
+package com.matemartyin.oauth2demo;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
