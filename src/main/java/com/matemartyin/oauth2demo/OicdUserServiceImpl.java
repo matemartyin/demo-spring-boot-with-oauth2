@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Slf4j
-public class GoogleUserService implements OAuth2UserService<OidcUserRequest, OidcUser> {
+public class OicdUserServiceImpl implements OAuth2UserService<OidcUserRequest, OidcUser> {
     @Override
     public OidcUser loadUser(OidcUserRequest userRequest) throws OAuth2AuthenticationException {
         var oidcUserService = new OidcUserService();
